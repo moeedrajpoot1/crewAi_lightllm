@@ -3,7 +3,7 @@ from litellm import completion
 import time
 
 
-API_KEY = 'AIzaSyAOB_3aOGS7atDLQTwMBbR-hh9xdd4GFK8'
+API_KEY = '****************'
 
 class cityFunFact(Flow):
      @start()
