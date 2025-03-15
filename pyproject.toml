@@ -1,0 +1,29 @@
+[project]
+name = "lightllm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "moeed", email = "moeedrajpoot1@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "crewai>=0.105.0",
+]
+
+[project.scripts]
+lightllm = "lightllm:main"
+practice = "lightllm.main:kickoff"
+chain_prompt = "lightllm.prompt_chaining:kickoff"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "lightllm",
+]
+
+[tool.uv.sources]
+lightllm = { workspace = true }
