@@ -15,6 +15,11 @@ dependencies = [
 lightllm = "lightllm:main"
 practice = "lightllm.main:kickoff"
 chain_prompt = "lightllm.prompt_chaining:kickoff"
+router = "lightllm.router:kickoff"
+router_plot = "lightllm.router:plot"
+routerD = "lightllm.routerD:kickoff"
+
+
 
 [build-system]
 requires = ["hatchling"]

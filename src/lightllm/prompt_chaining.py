@@ -1,9 +1,10 @@
-from crewai.flow.flow import Flow,start, listen
+from crewai.flow.flow import Flow, start, listen
+
 from litellm import completion
 import time
 
 
-API_KEY = '****************'
+API_KEY = 'AIzaSyAOB_3aOGS7atDLQTwMBbR-hh9xdd4GFK8'
 
 class cityFunFact(Flow):
      @start()
